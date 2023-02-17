@@ -1,22 +1,19 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Octavio's Labs</title>
-  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="style.css" /> 
 </head>
 <body>
-  <div class="wrapper">
+  <div class="wrapper">        
+    <!-- wrapper -->
     <header class="header"><h1>Octavio's Labs for INST377</h1></header>
     <div class="container">
-      <div class="left_section box">
+        <!-- container -->
+      <div>class="left_section box">
+        <!-- left inputs -->
         <h2>Album Names</h2>
         <ol class="box">
           <li>The Kiwi Sound (DJ Mix) - Conducta</li>
@@ -24,23 +21,32 @@
           <li>YHLQMDLG - Bad Bunny</li>
           <li>Hospitality On The Beach - Various Artists</li>
           <li>Sick Music 2020 - Various Artists</li>
-        </ol>
+         </ol>
       </div>
     <div class="right_section box">
+        <!-- right side -->
+        <!-- images box -->
         <h2>Image Carousel</h2>
-      <div class="grid img">
-      <img src="images/mochi.gif" alt="mochi gif" />
-      <img src="images/mochi.jpg" alt="mochi jpg" />
-      <img src="images/mochi.png" alt="mochi png" />
-      <img src="images/mochi.svg" alt="mochi svg" />
-      <div class="box">
-         Image types: .gif, .jpg, .png, .svg
-      </div>
+      <div class="grid">
+      <img id="slide_1" src="images/mochi.gif" alt="mochi gif" />
+      <img id="slide_2" src="images/mochi.jpg" alt="mochi jpg" />
+      <img id="slide_3" src="images/mochi.png" alt="mochi png" />
+      <img 
+      id="slide_4" 
+      src="images/mochi.svg" 
+      alt="mochi svg" 
+      />
     </div>
+      <div class="box">
+        <!-- description box -->
+         Image types: .gif, .jpg, .png, .svg
+        </div>
     </div>
   </div>  
   <footer class="footer">
     <a href="http://github.com/bigboioct/INST377-Lab-Work" target="_blank" rel="noopener noreferrer">My GitHub Repository</a>
   </footer>
+</div>
+  <script src="script.js" ></script>
 </body>
 </html>
