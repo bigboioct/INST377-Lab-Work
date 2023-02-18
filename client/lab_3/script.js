@@ -38,16 +38,10 @@ function moveToNextSlide() {
   updateSlidePosition(); // this is how you call a function within a function
 }
 function moveToPrevSlide() {
-  /* if (slidePosition === 0 ){
+  if (slidePosition === 0 ){
     slidePosition = totalSlides - 1;
   } else {
     slidePosition -= 1;
-  };  */
-
-    if (slidePosition === totalSlides - 1) {
-    slidePosition = 0;
-  } else {
-    slidePosition += 1;
   };
 
   // add your code in here for when you click the "prev" button
@@ -71,5 +65,11 @@ document.querySelector(".next") // Get the appropriate element (<button class="n
     moveToNextSlide(); // call the function above to handle this
   });
 
+  document.querySelector(".prev") // Get the appropriate element (<button class="next">)
+  .addEventListener("click", () => {
+    // set an event listener on it - when it's clicked, do this callback function
+    console.log("clicked prev"); // let's tell the client console we made it to this point in the script
+    moveToPrevSlide(); // call the function above to handle this
+  });
 // Paying close attention to the above queryselector, write one that fires
 // when you want a "prev" slide
