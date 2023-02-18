@@ -218,7 +218,7 @@ div.carousel {
   -webkit-overflow-scrolling: touch;
 }
 
-/* .carousel_item, */
+ .carousel_item, 
 .hidden {
   display: none;
 }

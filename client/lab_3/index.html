@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css" /> 
 </head>
 <body> 
-    
   <div class="wrapper">        
     <!-- wrapper -->
     <header class="header"><h1>Octavio's Labs for INST377</h1></header>
@@ -29,16 +28,18 @@
         <!-- images box -->
         <h2>Image Carousel</h2>
         <div class="carousel">
+          <button class = "prev">prev</button>
           <div class="slides">
-        </div>
-            <img id="slide_1" src="images/img1.jpeg" alt="Spongebob :o" />
-            <img id="slide_2" src="images/img2.jpeg" alt="Spongebob ;)" />
-            <img id="slide_3" src="images/img3.gif" alt="Spongebob :)"/> 
-            <img 
+            <div class="carousel_item visible"><img id="slide_1" src="images/img1.jpeg" alt="Spongebob :o" /></div>
+            <img class="carousel_item hidden"><img id="slide_2" src="images/img2.jpeg" alt="Spongebob ;)" /></div>
+            <img class="carousel_item hidden"><img id="slide_3" src="images/img3.gif" alt="Spongebob :/"/></div> 
+            <img class="carousel_item hidden"><img
                 id="slide_4" 
                 src="images/img4.jpeg" 
                 alt="Spongebob :)" 
-      />
+      /></div>
+      </div>   
+        <button class="next">next</button>
     </div>
       <div class="box">
         <!-- description box -->
