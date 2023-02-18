@@ -1,6 +1,0 @@
-{
-    "eslint.enable": true,
-    "eslint.format.enable": true,
-    "eslint.nodePath": "",
-    "eslint.run": "onSave"
-}
