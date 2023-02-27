@@ -155,6 +155,7 @@ form {
 */
 
 .footer {
+  display: flex;
   flex-shrink: 0;
   padding: 1rem;
   background-color: rgba(0, 139, 139, 0.8);
