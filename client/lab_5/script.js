@@ -5,6 +5,9 @@
 
 /* A quick filter that will return something based on a matching input */
 function filterList(list, query) {
+  
+  
+  
   /*
     Using the .filter array method, 
     return a list that is filtered by comparing the item name in lower case
