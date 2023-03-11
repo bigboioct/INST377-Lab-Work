@@ -25,10 +25,10 @@ async function mainEvent() { // the async keyword means we can make API requests
   mainForm.addEventListener('submit', async (submitEvent) => { // async has to be declared on every function that needs to "await" something
   });
 
-  filterButton.addEventListener('click', async (event){
+  filterButton.addEventListener('click', async (event) => {
     console.log('clicked FilterButton');
 
-    
+
   })
     
     // This prevents your page from becoming a list of 1000 records from the county, even if your form still has an action set on it
