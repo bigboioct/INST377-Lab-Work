@@ -42,7 +42,7 @@ async function mainEvent() {
 
   const loadAnimation = document.querySelector("#data_load_animation");
   loadAnimation.style.display = "none";
-  generateListButton.classList.add("hidden");
+  generateListButton.classList.add("hidden"); 
 
 
   const storedData = localStorage.getItem('storedData');
